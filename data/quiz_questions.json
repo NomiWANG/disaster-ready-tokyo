@@ -1,0 +1,103 @@
+{
+  "version": "2.0",
+  "schema": "统一格式: options数组 + correctAnswer字段",
+  "questions": [
+    {
+      "id": 1,
+      "topic": "earthquake",
+      "questionKey": "quiz.questions.q1.question",
+      "options": [
+        { "id": "a", "key": "quiz.questions.q1.optionA" },
+        { "id": "b", "key": "quiz.questions.q1.optionB" },
+        { "id": "c", "key": "quiz.questions.q1.optionC" },
+        { "id": "d", "key": "quiz.questions.q1.optionD" }
+      ],
+      "correctAnswer": "a",
+      "explanationKey": "quiz.questions.q1.explanation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "topic": "fire",
+      "questionKey": "quiz.questions.q2.question",
+      "options": [
+        { "id": "a", "key": "quiz.questions.q2.optionA" },
+        { "id": "b", "key": "quiz.questions.q2.optionB" },
+        { "id": "c", "key": "quiz.questions.q2.optionC" },
+        { "id": "d", "key": "quiz.questions.q2.optionD" }
+      ],
+      "correctAnswer": "b",
+      "explanationKey": "quiz.questions.q2.explanation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "topic": "evacuation",
+      "questionKey": "quiz.questions.q3.question",
+      "options": [
+        { "id": "a", "key": "quiz.questions.q3.optionA" },
+        { "id": "b", "key": "quiz.questions.q3.optionB" },
+        { "id": "c", "key": "quiz.questions.q3.optionC" },
+        { "id": "d", "key": "quiz.questions.q3.optionD" }
+      ],
+      "correctAnswer": "c",
+      "explanationKey": "quiz.questions.q3.explanation",
+      "difficulty": "medium",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "topic": "flood",
+      "questionKey": "quiz.questions.q4.question",
+      "options": [
+        { "id": "a", "key": "quiz.questions.q4.optionA" },
+        { "id": "b", "key": "quiz.questions.q4.optionB" },
+        { "id": "c", "key": "quiz.questions.q4.optionC" },
+        { "id": "d", "key": "quiz.questions.q4.optionD" }
+      ],
+      "correctAnswer": "d",
+      "explanationKey": "quiz.questions.q4.explanation"
+    },
+    {
+      "id": 5,
+      "topic": "emergency",
+      "questionKey": "quiz.questions.q5.question",
+      "options": [
+        { "id": "a", "key": "quiz.questions.q5.optionA" },
+        { "id": "b", "key": "quiz.questions.q5.optionB" },
+        { "id": "c", "key": "quiz.questions.q5.optionC" },
+        { "id": "d", "key": "quiz.questions.q5.optionD" }
+      ],
+      "correctAnswer": "a",
+      "explanationKey": "quiz.questions.q5.explanation",
+      "tags": ["emergency", "evacuation"]
+    },
+    {
+      "id": 6,
+      "topic": "typhoon",
+      "questionKey": "quiz.questions.q6.question",
+      "options": [
+        { "id": "a", "key": "quiz.questions.q6.optionA" },
+        { "id": "b", "key": "quiz.questions.q6.optionB" },
+        { "id": "c", "key": "quiz.questions.q6.optionC" },
+        { "id": "d", "key": "quiz.questions.q6.optionD" }
+      ],
+      "correctAnswer": "b",
+      "explanationKey": "quiz.questions.q6.explanation",
+      "difficulty": "hard"
+    },
+    {
+      "id": 7,
+      "topic": "firstaid",
+      "questionKey": "quiz.questions.q7.question",
+      "options": [
+        { "id": "a", "key": "quiz.questions.q7.optionA" },
+        { "id": "b", "key": "quiz.questions.q7.optionB" },
+        { "id": "c", "key": "quiz.questions.q7.optionC" },
+        { "id": "d", "key": "quiz.questions.q7.optionD" }
+      ],
+      "correctAnswer": "c",
+      "explanationKey": "quiz.questions.q7.explanation"
+    }
+  ]
+}

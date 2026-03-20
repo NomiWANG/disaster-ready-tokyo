@@ -1,0 +1,49 @@
+{
+  "name": "disasterreadytokyo",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "start:lan": "expo start --lan",
+    "start:tunnel": "expo start --tunnel",
+    "start:clear": "expo start -c",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^7.1.24",
+    "@react-navigation/native-stack": "^7.8.5",
+    "expo": "~54.0.27",
+    "expo-location": "~18.0.4",
+    "expo-notifications": "^0.29.14",
+    "expo-status-bar": "~3.0.9",
+    "expo-task-manager": "~12.0.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "^2.29.1",
+    "react-native-maps": "1.20.1",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "^4.18.0",
+    "react-native-web": "^0.21.0",
+    "react-native-worklets-core": "^1.6.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@react-native-community/cli": "^20.0.2",
+    "jest": "^29.7.0",
+    "react-test-renderer": "19.1.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|@react-native|@react-navigation|expo(nent)?|@expo(nent)?/.*|expo-.*|@expo/.*|react-native-web|react-native-gesture-handler|react-native-reanimated|@react-native-masked-view/masked-view|jest-expo)/)"
+    ]
+  }
+}
