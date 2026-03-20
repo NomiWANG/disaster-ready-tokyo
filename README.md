@@ -1,2 +1,3 @@
-# disaster-ready-tokyo
-UoL FP CM3050 Project Idea 1
+# Disaster Ready Tokyo
+
+A multilingual disaster preparedness app for foreign residents in Tokyo.
